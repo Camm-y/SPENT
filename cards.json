@@ -12,7 +12,7 @@
                         "notes": ""
                     }],
                     "arachne": [{
-                        "name": "Name",
+                        "name": "Arachne",
                         "type": "Assassin",
                         "strength": 2,
                         "ability": [{}],
@@ -97,6 +97,7 @@
                         "type": "Hybrid",
                         "strength": 5,
                         "ability": [{}],
+                        "hybrid": [0,1,1],
                         "notes": ""
                     }],
                     "chronos": [{
@@ -104,6 +105,7 @@
                         "type": "Hybrid",
                         "strength": 4,
                         "ability": [{}],
+                        "hybrid": [0,1,1],
                         "notes": ""
                     }],
                     "poseidon": [{
@@ -111,10 +113,18 @@
                         "type": "Hybrid",
                         "strength": 5,
                         "ability": [{}],
+                        "hybrid": [0,1,1],
                         "notes": ""
                     }]
                 }],
                 "seige": [{
+                    "aphrodite": [{
+                        "name": "Aphrodite",
+                        "type": "Medic",
+                        "strength": 1,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
                     "hades": [{
                         "name": "Hades",
                         "type": "Tight Bond",
@@ -163,34 +173,260 @@
         "chinese": [{
             "cards": [{
                 "leader": [{}],
-                "melee": [{}],
-                "ranged": [{}],
-                "agile": [{}],
-                "seige": [{}],
-                "assassin": [{}],
-                "support": [{}]
+                "melee": [{
+                    "erlang_shen": [{
+                        "name": "Erlang Shen",
+                        "type": "Unit",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "guan_yu": [{
+                        "name": "Guan YU",
+                        "type": "Medic",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "mulan": [{
+                        "name": "Mulan",
+                        "type": "Hero",
+                        "strength": 10,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "sun_wukong": [{
+                        "name": "Sun Wukong",
+                        "type": "Unit",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "xing_tian": [{
+                        "name": "Xing Tian",
+                        "type": "Unit",
+                        "strength": 2,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "ranged": [{
+                    "da_ji": [{
+                        "name": "Da Ji",
+                        "type": "Assassin",
+                        "strength": 1,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "hou_yi": [{
+                        "name": "Hou Yi",
+                        "type": "Unit",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "jing_wei": [{
+                        "name": "Jing Wei",
+                        "type": "Unit",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": "" 
+                    }],
+                    "ne_zha": [{
+                        "name": "Ne Zha",
+                        "type": "Assassin",
+                        "strength": 2,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "hybrid": [{
+                    "ao_kuang": [{
+                        "name": "Ao Kuang",
+                        "type": "Hybrid",
+                        "strength": 7,
+                        "ability": [{}],
+                        "hybrid": [1,0,1],
+                        "notes": ""
+                    }],
+                    "zhong_kui": [{
+                        "name": "Zhong Kui",
+                        "type": "Hybrid", 
+                        "strength": 4,
+                        "ability": [{}],
+                        "hybrid": [1,0,1],
+                        "notes": ""
+                    }]
+                }],
+                "seige": [{
+                    "chang_e": [{
+                        "name": "Chang'e",
+                        "type": "Medic",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "he_bo": [{
+                        "name": "He Bo",
+                        "type": "Unit",
+                        "strength": 8,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "nu_wa": [{
+                        "name": "Nu Wa",
+                        "type": "Unit",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "yu_huang": [{
+                        "name": "Yu Huang",
+                        "type": "Unit",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }]
             }]
         }],
         "japanese": [{
             "cards": [{
                 "leader": [{}],
-                "melee": [{}],
-                "ranged": [{}],
-                "agile": [{}],
-                "seige": [{}],
-                "assassin": [{}],
-                "support": [{}]
+                "melee": [{
+                    "amaterasu": [{
+                        "name": "Amaterasu",
+                        "type": "Medic",
+                        "strength": 7,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "kuzenbo": [{
+                        "name": "Kuzenbo",
+                        "type": "Tank",
+                        "strength": 2,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "ranged": [{
+                    "hachiman": [{
+                        "name": "Hachiman",
+                        "type": "Unit",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "izanami": [{
+                        "name": "Izanami",
+                        "type": "Undead",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "hybrid": [{
+                    "danzaburou": [{
+                        "name": "Danzaburou",
+                        "type": "Hybrid",
+                        "strength": 7,
+                        "ability": [{}],
+                        "hybrid": [0,1,1],
+                        "notes": ""
+                    }],
+                    "tsukuyomi": [{
+                        "name": "Tsukuyomi",
+                        "type": "Hybrid",
+                        "strength": 6,
+                        "ability": [{}],
+                        "hybrid": [1,1,0],
+                        "notes": ""
+                    }]
+                }],
+                "seige": [{
+                    "raijin": [{
+                        "name": "Raijin",
+                        "type": "Unit",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }]
             }]
         }],
         "mayan": [{
             "cards": [{
                 "leader": [{}],
-                "melee": [{}],
-                "ranged": [{}],
-                "agile": [{}],
-                "seige": [{}],
-                "assassin": [{}],
-                "support": [{}]
+                "melee": [{
+                    "awilix": [{
+                        "name": "Awilix",
+                        "type": "Assassin",
+                        "strength": 2,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "cabrakan": [{
+                        "name": "Cabrakan",
+                        "type": "Hero",
+                        "strength": 10,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "camazotz": [{
+                        "name": "Camazotz",
+                        "type": "Assassin/Hero",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "chaac": [{
+                        "name": "Chaac",
+                        "type": "Unit",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "hun_batz": [{
+                        "name": "Hun Batz",
+                        "type": "Assassin",
+                        "strength": 2,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "ranged": [{
+                    "amc": [{
+                        "name": "Ah Muzen Cab",
+                        "type": "Unit",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "xbal": [{
+                        "name": "Xbalanque",
+                        "type": "Unit",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "hybrid": [{}],
+                "seige": [{
+                    "au_puch": [{
+                        "name": "Au Puch",
+                        "type": "Unit",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "kukulkan": [{
+                        "name": "Kukulkan",
+                        "type": "Unit",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }]
             }]
         }],
         "egyptian": [{
