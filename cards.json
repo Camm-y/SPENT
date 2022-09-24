@@ -1,0 +1,242 @@
+[{
+    "pantheons": [{
+        "greek": [{
+            "cards": [{
+                "leader": [{}],
+                "melee": [{
+                    "achilles": [{
+                        "name": "Achilles",
+                        "type": "Hero",
+                        "strength": 10,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "arachne": [{
+                        "name": "Name",
+                        "type": "Assassin",
+                        "strength": 2,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "ares": [{
+                        "name": "Ares",
+                        "type": "Unit",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "athena": [{
+                        "name": "Athena",
+                        "type": "Unit",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "atlas": [{
+                        "name": "Atlas",
+                        "type": "Tank",
+                        "strength": 7,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "cerberus": [{
+                        "name": "Cerberus",
+                        "type": "Tank",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "nemesis": [{
+                        "name": "Nemesis",
+                        "type": "Assassin",
+                        "strength": 1,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "nike": [{
+                        "name": "Nike",
+                        "type": "Morale Boost",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }]    
+                }],
+                "ranged": [{
+                    "apollo": [{
+                        "name": "Apollo",
+                        "type": "Tight Bond",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "artemis": [{
+                        "name": "Artemis",
+                        "type": "Tight Bond",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "charybdis": [{
+                        "name": "Charybdis",
+                        "type": "Unit",
+                        "strength": 2,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "medusa": [{
+                        "name": "Medusa",
+                        "type": "Unit",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "hybrid": [{
+                    "chiron": [{
+                        "name": "Chiron",
+                        "type": "Hybrid",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "chronos": [{
+                        "name": "Chronos",
+                        "type": "Hybrid",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "poseidon": [{
+                        "name": "Poseidon",
+                        "type": "Hybrid",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "seige": [{
+                    "hades": [{
+                        "name": "Hades",
+                        "type": "Tight Bond",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "hera": [{
+                        "name": "Hera",
+                        "type": "Unit",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "persephone": [{
+                        "name": "Persephone",
+                        "type": "Tight Bond",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "scylla": [{
+                        "name": "Scylla",
+                        "type": "Unit",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "thanatos": [{
+                        "name": "Thanatos",
+                        "type": "Assassin",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "zeus": [{
+                        "name": "Name",
+                        "type": "Hero",
+                        "strength": 10,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }]
+            }]
+        }],
+        "chinese": [{
+            "cards": [{
+                "leader": [{}],
+                "melee": [{}],
+                "ranged": [{}],
+                "agile": [{}],
+                "seige": [{}],
+                "assassin": [{}],
+                "support": [{}]
+            }]
+        }],
+        "japanese": [{
+            "cards": [{
+                "leader": [{}],
+                "melee": [{}],
+                "ranged": [{}],
+                "agile": [{}],
+                "seige": [{}],
+                "assassin": [{}],
+                "support": [{}]
+            }]
+        }],
+        "mayan": [{
+            "cards": [{
+                "leader": [{}],
+                "melee": [{}],
+                "ranged": [{}],
+                "agile": [{}],
+                "seige": [{}],
+                "assassin": [{}],
+                "support": [{}]
+            }]
+        }],
+        "egyptian": [{
+            "cards": [{
+                "leader": [{}],
+                "melee": [{}],
+                "ranged": [{}],
+                "agile": [{}],
+                "seige": [{}],
+                "assassin": [{}],
+                "support": [{}]
+            }]
+        }],
+        "hindu": [{
+            "cards": [{
+                "leader": [{}],
+                "melee": [{}],
+                "ranged": [{}],
+                "agile": [{}],
+                "seige": [{}],
+                "assassin": [{}],
+                "support": [{}]
+            }]
+        }],
+        "roman": [{
+            "cards": [{
+                "leader": [{}],
+                "melee": [{}],
+                "ranged": [{}],
+                "agile": [{}],
+                "seige": [{}],
+                "assassin": [{}],
+                "support": [{}]
+            }]
+        }],
+        "norse": [{
+            "cards": [{
+                "leader": [{}],
+                "melee": [{}],
+                "ranged": [{}],
+                "agile": [{}],
+                "seige": [{}],
+                "assassin": [{}],
+                "support": [{}]
+            }]
+        }],
+        "special": [{}]
+    }]
+}]
