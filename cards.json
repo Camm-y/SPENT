@@ -432,45 +432,404 @@
         "egyptian": [{
             "cards": [{
                 "leader": [{}],
-                "melee": [{}],
-                "ranged": [{}],
-                "agile": [{}],
-                "seige": [{}],
-                "assassin": [{}],
-                "support": [{}]
+                "melee": [{
+                    "geb": [{
+                        "name": "Geb",
+                        "type": "Tank",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "horus": [{
+                        "name": "Horus",
+                        "type": "Medic",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "khepri": [{
+                        "name": "Khepri",
+                        "type": "Medic",
+                        "strength": 1,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "serqet": [{
+                        "name": "Serqet",
+                        "type": "Assassin",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "set": [{
+                        "set": "Set",
+                        "type": "Unit",
+                        "strength": 8,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "ranged": [{
+                    "anhur": [{
+                        "name": "Anhur",
+                        "type": "Unit",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "hybrid": [{
+                    "bastet": [{
+                        "name": "Bastet",
+                        "type": "hybrid",
+                        "strength": 6,
+                        "ability": [{}],
+                        "hybrid": [1,1,0],
+                        "notes": ""
+                    }],
+                    "neith": [{
+                        "name": "Neith",
+                        "type": "Hybrid/Medic",
+                        "strength": 7,
+                        "ability": [{}],
+                        "hybrid": [0,1,1],
+                        "notes": ""
+                    }],
+                    "osiris": [{
+                        "name": "Osiris",
+                        "type": "Hybrid/Weakening",
+                        "strength": 6,
+                        "ability": [{}],
+                        "hybrid": [1,0,1],
+                        "notes": ""
+                    }],
+                    "sobek": [{
+                        "name": "Sobek",
+                        "type": "Hybrid/Weakening",
+                        "strength": 2,
+                        "ability": [{}],
+                        "hybrid": [1,0,1],
+                        "notes": ""
+                    }]
+                }],
+                "seige": [{
+                    "anubis": [{
+                        "name": "Anubis",
+                        "type": "Lifestealer",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "eset": [{
+                        "name": "Eset",
+                        "type": "Medic",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "ra": [{
+                        "name": "Ra",
+                        "type": "Medic",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "thoth": [{
+                        "name": "Thoth",
+                        "type": "Unit",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }]
             }]
         }],
         "hindu": [{
             "cards": [{
                 "leader": [{}],
-                "melee": [{}],
-                "ranged": [{}],
-                "agile": [{}],
-                "seige": [{}],
-                "assassin": [{}],
-                "support": [{}]
+                "melee": [{
+                    "bakasura": [{
+                        "name": "Bakasura",
+                        "type": "Assassin",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "ganesha": [{
+                        "name": "Ganesha",
+                        "type": "Tank",
+                        "strength": 0,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "kali": [{
+                        "name": "Kali",
+                        "type": "Assassin",
+                        "strength": 2,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "kumbhakarna": [{
+                        "name": "Kumbhakarna",
+                        "type": "Tank",
+                        "strength": 2,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "ravana": [{
+                        "name": "Ravana",
+                        "type": "Hero",
+                        "strength": 10,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "shiva": [{
+                        "name": "Shiva",
+                        "type": "Hero",
+                        "strength": 7,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "vamana": [{
+                        "name": "Vamana",
+                        "type": "Unit",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "ranged": [{
+                    "rama": [{
+                        "name": "Rama",
+                        "type": "Unit",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "hybrid": [{}],
+                "seige": [{
+                    "agni": [{
+                        "name": "Agni",
+                        "type": "Unit",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }]
             }]
         }],
         "roman": [{
             "cards": [{
                 "leader": [{}],
-                "melee": [{}],
-                "ranged": [{}],
-                "agile": [{}],
-                "seige": [{}],
-                "assassin": [{}],
-                "support": [{}]
+                "melee": [{
+                    "bacchus": [{
+                        "name": "Bacchus",
+                        "type": "Unit",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "bellona": [{
+                        "name": "Bellona",
+                        "type": "Hero",
+                        "strength": 8,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "hercules": [{
+                        "name": "Hercules",
+                        "type": "Hero",
+                        "strength": 10,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "mercury": [{
+                        "name": "Mercury",
+                        "type": "Assassin",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "terra": [{
+                        "name": "Terra",
+                        "type": "Medic",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "ranged": [{
+                    "cupid": [{
+                        "name": "Cupid",
+                        "type": "Medic",
+                        "strength": 7,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "hybrid": [{
+                    "sylvanus": [{
+                        "name": "Sylvanus",
+                        "type": "Hybrid/Medic",
+                        "ability": [{}],
+                        "hybrid": [1,0,1],
+                        "notes": ""
+                    }]
+                }],
+                "seige": [{
+                    "discordia": [{
+                        "name": "Discordia",
+                        "type": "Unit",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "janus": [{
+                        "name": "Janus",
+                        "type": "Unit",
+                        "strength": 4,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "nox": [{
+                        "name": "Nox",
+                        "type": "Unit",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "vulcan": [{
+                        "name": "Vulcan",
+                        "type": "Unit",
+                        "strength": 7,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }]
             }]
         }],
         "norse": [{
             "cards": [{
                 "leader": [{}],
-                "melee": [{}],
-                "ranged": [{}],
-                "agile": [{}],
-                "seige": [{}],
-                "assassin": [{}],
-                "support": [{}]
+                "melee": [{
+                    "fenrir": [{
+                        "name": "Fenrir",
+                        "type": "Assassin",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "loki": [{
+                        "name": "Loki",
+                        "type": "Assassin/Hero",
+                        "strength": 0,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "odin": [{
+                        "name": "Odin",
+                        "type": "Unit",
+                        "strength": 8,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "rat": [{
+                        "name": "Ratatoskr",
+                        "type": "Assassin",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "thor": [{
+                        "name": "Thor",
+                        "type": "Hero",
+                        "strength": 9,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "tyr": [{
+                        "name": "Tyr",
+                        "type": "Unit",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "ymir": [{
+                        "name": "Ymir",
+                        "type": "Unit",
+                        "strength": 3,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "ranged": [{
+                    "heimdallr": [{
+                        "name": "Heimdallr",
+                        "type": "Unit",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }],
+                    "skadi": [{
+                        "name": "Skadi",
+                        "type": "Unit",
+                        "strength": 5,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }],
+                "hybrid": [{
+                    "fafnir": [{
+                        "name": "Fafnir",
+                        "type": "Hybrid",
+                        "strength": 4,
+                        "ability": [{}],
+                        "hybrid": [1,0,1],
+                        "notes": ""
+                    }],
+                    "freya": [{
+                        "name": "Freya",
+                        "type": "Hybrid/Hero",
+                        "strength": 7,
+                        "ability": [{}],
+                        "hybrid": [0,1,1],
+                        "notes": ""
+                    }],
+                    "jormungandr": [{
+                        "name": "Jormungandr",
+                        "type": "Hybrid",
+                        "strength": 4,
+                        "ability": [{}],
+                        "hybrid": [1,0,1],
+                        "notes": ""
+                    }],
+                    "sol": [{
+                        "name": "Sol",
+                        "type": "Hybrid",
+                        "strength": 7,
+                        "ability": [{}],
+                        "hybrid": [0,1,1],
+                        "notes": ""
+                    }],
+                    "ullr": [{
+                        "name": "Ullr",
+                        "type": "Hybrid",
+                        "strength": 6,
+                        "ability": [{}],
+                        "hybrid": [1,1,0],
+                        "notes": ""
+                    }]
+                }],
+                "seige": [{
+                    "hel": [{
+                        "name": "Hel",
+                        "type": "Medic",
+                        "strength": 6,
+                        "ability": [{}],
+                        "notes": ""
+                    }]
+                }]
             }]
         }],
         "special": [{}]
