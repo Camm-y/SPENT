@@ -832,7 +832,164 @@
                 }]
             }]
         }],
-        "special": [{
+        "neutral": [{
+            "units": [{
+                "cthulu": [{
+                    "name": "Cthulu",
+                    "type": "Special",
+                    "position": "Global",
+                    "ability": [{}],
+                    "notes": ""
+                }],
+                "pele": [{
+                    "name": "Pele",
+                    "type": "Special",
+                    "strength": 6,
+                    "position": "Melee",
+                    "ability": [{}],
+                    "notes": ""
+                }],
+                "baba_yaga": [{
+                    "name": "Baba Yaga",
+                    "type": "Special",
+                    "strength": 5,
+                    "position": "Seige",
+                    "ability": [{}],
+                    "notes": ""
+                }],
+                "artio": [{
+                    "name": "Artio",
+                    "type": "Beserk",
+                    "strength": 3,
+                    "position": "Seige",
+                    "ability": [{}],
+                    "notes": ""
+                }],
+                "artio_bear": [{
+                    "name": "Artio (Bear Form)",
+                    "type": "Beserk",
+                    "strength": 14,
+                    "position": "Seige/Melee",
+                    "ability": [{}],
+                    "notes": ""
+                }],
+                 "tiamat": [{
+                    "name": "Tiamat",
+                    "type": "Summoner",
+                    "strength": 6,
+                    "position": "Melee/Seige",
+                    "ability": [{}],
+                    "notes": ""
+                 }],
+                 "ishtar": [{
+                    "name": "Ishtar",
+                    "type": "Special",
+                    "strength": 4,
+                    "position": "Ranged",
+                    "ability": [{}],
+                    "notes": ""
+                 }],
+                 "gilgamesh": [{
+                    "name": "Gilgamesh",
+                    "type": "Buff",
+                    "strength": 5,
+                    "position": "Melee",
+                    "ability": [{
+                        "desc": "Doubles the strength of all unit cards in that row."
+                    }],
+                    "notes": ""
+                 }]
+            }],
+            "environment": [{
+                "ymirs_frost": [{
+                    "name": "Ymir's Frost",
+                    "type": "Weather",
+                    "position": "Melee",
+                    "ability": [{
+                        "desc": "Reduces the strength of all frontline cards for both players",
+                        "unit_nerf": 1,
+                        "tank_nerf": 2
+                    }],
+                    "notes": "Unit cards are reduced to 1, Tank cards are reduced to 2, Hero cards are unaffected."
+                }],
+                "rain_dance": [{
+                    "name": "Rain Dance",
+                    "type": "Weather",
+                    "position": "Ranged",
+                    "ability": [{
+                        "desc": "Reduces the strength of all ranged cards for both players",
+                        "unit_nerf": 1
+                    }],
+                    "notes": "Unit cards are reduced to 1, Hero cards are unaffected"
+                }],
+                "zeus_wrath": [{
+                    "name": "Zeus's Wrath",
+                    "type": "Weather",
+                    "position": "Seige",
+                    "ability": [{
+                        "desc": "Reduces the strength of all backline cards for both players",
+                        "unit_nerf": 1
+                    }],
+                    "notes": "Unit cards are reduced to 1, Hero cards are unaffected"
+                }],
+                "tiamats_storm": [{
+                    "name": "Tiamat's Storm",
+                    "type": "Weather",
+                    "position": "Ranged/Seige",
+                    "ability": [{
+                        "desc": "Reduces the strength of all ranged and seige cards",
+                        "unit nerf": 1
+                    }],
+                    "notes": "Does not stack with Rain Dance or Zeus's Wrath"
+                }],
+                "purification": [{
+                    "name": "Purification",
+                    "type": "Weather",
+                    "position": "Global",
+                    "ability": [{
+                        "desc": "Clears all environment effects"
+                    }],
+                    "notes": "Affects: Ymir's Frost, Rain Dance, Zeus's Wrath, "
+                }]
+            }],
+            "ability": [{
+                "gjallarhorn": [{
+                    "name": "Gjallarhorn",
+                    "type": "Ability",
+                    "position": "All",
+                    "ability": [{
+                        "desc": "Doubles the strength of all unit cards in that row."
+                    }],
+                    "notes": "Limited to 1 per row. Hero cards are unaffected."
+                }],
+                "war_cry": [{
+                    "name": "War Cry",
+                    "type": "Ability",
+                    "position": "Global",
+                    "ability": [{
+                        "desc": "Triggers transformation of all Berserker cards on the same row."
+                    }],
+                    "notes": ""
+                }],
+                "soul_reaver": [{
+                    "name": "Soul Reaver",
+                    "type": "Ability",
+                    "position": "Global",
+                    "ability": [{
+                        "desc": "Discards all cards on the battlefield with the highest strength"
+                    }],
+                    "notes": "Hero cards are unaffected."
+                }],
+                "decoy": [{
+                    "name": "Decoy",
+                    "type": "Special",
+                    "position": "All",
+                    "ability": [{
+                        "desc": "Swap with a card on the battlefield to return it to your hand."
+                    }],
+                    "notes": "Hero cards are unaffected."
+                }]
+            }]
         }]
     }]
 }]
